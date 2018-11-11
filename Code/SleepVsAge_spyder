@@ -1,0 +1,13 @@
+#import packages and data
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+%matplotlib inline
+Codes=pd.read_csv("ATUS_Survey/codes.csv")
+Activities=pd.read_csv("ATUS_Survey/atusact.csv")
+Summary=pd.read_csv("ATUS_Survey/atussum.csv")
+Respondent=pd.read_csv("ATUS_Survey/atusresp.csv")
+#print(SU.head(10))
+N_people=len(Summary["tucaseid"])  #Initialize all dataframes and store number of people as variable
+Roster=pd.read_csv("ATUS_Survey/atusrost.csv")

@@ -1,0 +1,5 @@
+Graph={1:{"L":0,"R":2,"D":3,"U",0},2:{"L":1,"R":0,"D":4,"U",0},3:{"L":0,"R":4,"D":0,"U",1},4:{"L":3,"R":0,"D":0,"U",2}}
+def MoveHB(World,Pos):
+    choices=World[Pos]
+    
+    
